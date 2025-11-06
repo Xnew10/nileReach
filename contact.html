@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="موقع Nile Reach هو منصة متكاملة لخدمات رقمية متنوّعة تشمل: تحميل الفيديوهات من الإنترنت، ترجمة النصوص والملفات، تحويل النص إلى صوت (TTS)، تصميم وتطوير المواقع، أدوات التعامل مع الوسائط، والعديد من الخدمات الرقمية المفيدة.">
+	
+    <meta name="keywords" content="Nile Reach, خدمات رقمية, تحميل فيديو, تحميل من يوتيوب, ترجمة نصوص, ترجمة ملفات، تصميم مواقع، تطوير مواقع، تحويل النص إلى صوت، أدوات وسائط، TTS، تحويل فيديو، تحرير فيديو، أدوات ترجمة، أدوات تحويل نص، تنزيل فيديوهات من الانترنت">
+	
+	<meta name="author" content="Nile Reach">
+    
+    <title>Nile Reach – الابتكار بأسلوب عصري</title>
+    
+    <link rel="icon" href="img/NR.jpg">
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="Nile Reach" />
+    <meta property="og:description" content="Innovation with a Modern Touch" />
+    <meta property="og:image" content="img/NR.jpg" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: 'Tajawal', sans-serif;
+        background: linear-gradient(to right, #F8FAFC, #E2E8F0);
+      }
+      
+      .card {
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        transition: all 0.3s ease-in-out;
+        background-color: #ffffff;
+      }
+      
+      .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+      }
+      
+      .card-title {
+        font-size: 1.3rem;
+        color: #1E3A8A;
+        font-weight: 700;
+      }
+      
+      .card-text {
+        color: #4B5563;
+        font-size: 1rem;
+      }
+      
+      .card-price {
+        color: #F97316;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+        .category-box {
+            min-width: 140px;
+            background-color: #f8f9fa;
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            margin-left: 1rem;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            transition: 0.3s;
+          }
+      
+          .category-box:hover {
+            background-color: #e9ecef;
+            cursor: pointer;
+          }
+      
+          .category-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+          }
+      
+          .scrolling-wrapper {
+            overflow-x: auto;
+            white-space: nowrap;
+            padding-bottom: 1rem;
+          }
+      
+          .scrolling-wrapper::-webkit-scrollbar {
+            height: 6px;
+          }
+      
+          .scrolling-wrapper::-webkit-scrollbar-thumb {
+            background-color: #dee2e6;
+            border-radius: 10px;
+          }
+      
+          a.category-box {
+            color: inherit;
+            text-decoration: none;
+            display: inline-block;
+          }
+      </style>
+          
+          <style>
+      .testimonial-box {
+        width: 100%;
+        max-width: 500px;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #f8f8f8;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        font-family: 'Arial', sans-serif;
+        direction: rtl;
+        text-align: right;
+      }
+      
+      .testimonial {
+        animation: fade 1s ease-in-out;
+      }
+        
+       .dropdown-menu{
+        text-align: right !important;
+      }
+      
+      @keyframes fade {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      .stars {
+        color: #FFD700;
+        margin-bottom: 5px;
+      }
+      .name {
+        font-weight: bold;
+        margin-top: 10px;
+        font-size: 1.1em;
+      }
+      #mainText{
+        height: 650px;
+        background:white;
+        border-radius: 15px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 10px 15px;
+      }
+      #mainText #TextTitel{
+        font-weight: bold;
+        padding: 5px;
+      }
+         .footer {
+            background-color: #1a1d20;
+            color: #adb5bd;
+            padding: 2rem 1rem;
+          }
+          .footer a {
+            color: #adb5bd;
+            text-decoration: none;
+            margin-left: 1rem;
+          }
+          .footer a:hover {
+            color: white;
+          }
+          .footer hr {
+            border-top: 1px solid #343a40;
+          }
+        
+      /* تأكد أن عنصر الـ Navbar عنده position: relative */
+      .navbar {
+          position: relative;
+      }
+      
+      /* الزر داخل الـ Navbar */
+      .lang-btn {
+          position: absolute;
+          top: 7px;
+          right: 180px; /* قلل المسافة حسب تصميمك */
+          background: #007bff;
+          color: white;
+          border: none;
+          padding: 10px 15px;
+          border-radius: 8px;
+          cursor: pointer;
+          font-weight: bold;
+          transition: 0.3s;
+          z-index: 10; /* للتأكد أنه فوق العناصر الأخرى */
+      }
+      
+      .lang-btn:hover {
+          background: #0056b3;
+      }
+        
+      </style>
+
+</head>
+<body>
+    <nav style="background: linear-gradient(to right, #0d6efd 45%, #FFFFFF);" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/NR.jpg" alt="Logo" width="30" height="30" style="border-radius: 50%;" class="d-inline-block align-text-top">
+            Nile Reach 
+          </a>
+        <button class="lang-btn" onclick="switchLanguage()">🌐 تغيير اللغة</button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="phones.html">الهواتف الذكية</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  خدمات آخرى
+                </a>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="books.html">الكتب الرقمية</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">تسجيل / تسجيل دخول </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">تواصل معنا</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="بحث.." aria-label="Search"/>
+              <button class="btn btn-outline-light" type="submit">ابحث</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+        
+
+        <main id="mainText" class="w-75">
+            <div id="TextTitel">
+                <h1 style="text-align: center;">تواصل معنا</h1>
+            </div>
+
+            <hr style="width: 90%; position: relative; right: 45px;"/>
+
+            <p>
+                <!-- هنا أكتب نص تواصل معنا -->
+            </p>
+
+        </main>
+
+        <footer style="background: linear-gradient(to right, #0d6efd 45%, #FFFFFF);" class="footer text-center">
+            <div class="container">
+              <hr class="mb-4">
+              <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+                <p class="mb-2 mb-sm-0">© 2025 Nile Reach</p>
+                <a href="#"><img style="border-radius: 50%;" src="img/NR.jpg" alt="..." width="24" height="24"></a>
+                <ul class="list-unstyled d-flex mb-0">
+                  <li><a href="index.html">الرئيسية</a></li>
+                  <li><a href="#">من نحن</a></li>
+                  <li><a href="#">الدعم و المساعدة</a></li>
+                  <li><a href="#Order-list">تسوق حسب الأقساب</a></li>
+                  <li><a href="#">القواعد</a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+          
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+          <script type='text/javascript' src='//pl25871410.effectiveratecpm.com/d5/cc/fd/d5ccfd45ab394d52df99d85c422b4dcf.js'></script>
+</body>
+</html>

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="موقع Nile Reach هو منصة متكاملة لخدمات رقمية متنوّعة تشمل: تحميل الفيديوهات من الإنترنت، ترجمة النصوص والملفات، تحويل النص إلى صوت (TTS)، تصميم وتطوير المواقع، أدوات التعامل مع الوسائط، والعديد من الخدمات الرقمية المفيدة.">
+	
+<meta name="keywords" content="Nile Reach, خدمات رقمية, تحميل فيديو, تحميل من يوتيوب, ترجمة نصوص, ترجمة ملفات، تصميم مواقع، تطوير مواقع، تحويل النص إلى صوت، أدوات وسائط، TTS، تحويل فيديو، تحرير فيديو، أدوات ترجمة، أدوات تحويل نص، تنزيل فيديوهات من الانترنت">
+	
+	<meta name="author" content="Nile Reach">
+    
+    <title>Nile Reach – الابتكار بأسلوب عصري</title>
+    
+    <link rel="icon" href="img/NR.jpg">
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="Nile Reach" />
+    <meta property="og:description" content=" الابتكار بأسلوب عصري " />
+    <meta property="og:image" content="img/NR.jpg" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+  font-family: 'Tajawal', sans-serif;
+  background: linear-gradient(to right, #F8FAFC, #E2E8F0);
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  color: #1E3A8A;
+  font-weight: 700;
+}
+
+.card-text {
+  color: #4B5563;
+  font-size: 1rem;
+}
+
+.card-price {
+  color: #F97316;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+  .category-box {
+      min-width: 140px;
+      background-color: #f8f9fa;
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+      margin-left: 1rem;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .category-box:hover {
+      background-color: #e9ecef;
+      cursor: pointer;
+    }
+
+    .category-icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .scrolling-wrapper {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 1rem;
+    }
+
+    .scrolling-wrapper::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .scrolling-wrapper::-webkit-scrollbar-thumb {
+      background-color: #dee2e6;
+      border-radius: 10px;
+    }
+
+    a.category-box {
+      color: inherit;
+      text-decoration: none;
+      display: inline-block;
+    }
+</style>
+    
+    <style>
+.testimonial-box {
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.testimonial {
+  animation: fade 1s ease-in-out;
+}
+  
+ .dropdown-menu{
+  text-align: right !important;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.stars {
+  color: #FFD700;
+  margin-bottom: 5px;
+}
+.name {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+   .footer {
+      background-color: #1a1d20;
+      color: #adb5bd;
+      padding: 2rem 1rem;
+    }
+    .footer a {
+      color: #adb5bd;
+      text-decoration: none;
+      margin-left: 1rem;
+    }
+    .footer a:hover {
+      color: white;
+    }
+    .footer hr {
+      border-top: 1px solid #343a40;
+    }
+  
+/* تأكد أن عنصر الـ Navbar عنده position: relative */
+.navbar {
+    position: relative;
+}
+
+/* الزر داخل الـ Navbar */
+.lang-btn {
+    position: absolute;
+    top: 7px;
+    right: 400px; /* قلل المسافة حسب تصميمك */
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 10; /* للتأكد أنه فوق العناصر الأخرى */
+}
+
+.lang-btn:hover {
+    background: #0056b3;
+}
+  
+</style>
+
+</head>
+<body>
+    
+  <nav style="background: linear-gradient(to right, #0d6efd 45%, #FFFFFF);" class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/NR.jpg" alt="Logo" width="30" height="30" style="border-radius: 50%;" class="d-inline-block align-text-top">
+      Nile Reach 
+    </a>
+  <button class="lang-btn" onclick="switchLanguage()">🌐 تغيير اللغة</button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="phoness.html">الهواتف الذكية</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            خدمات آخرى
+          </a>
+          <ul class="dropdown-menu" >
+            <li><a class="dropdown-item" href="books.html">الكتب الرقمية</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="form.html">تسجيل / تسجيل دخول </a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">تواصل معنا</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="بحث.." aria-label="Search"/>
+        <button class="btn btn-outline-light" type="submit">ابحث</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  
+  <div id="carouselExampleIndicators" class="carousel slide m-5"  data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+
+  <div class="carousel-inner w-100">
+    <div class="carousel-item active">
+      <img style="height: 300px;" src="img/Order seven/img.jpg" class="d-block w-100 rounded-3" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 300px;" src="img/Order three/img.jpg" class="d-block w-100 rounded-3" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 300px;" src="img/Order six/img.jpg" class="d-block w-100 rounded-3" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 300px;" src="img/Order two/img.jpg" class="d-block w-100 rounded-3" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+        <section class="services">
+    <h4 id="Order-list" class="m-3" style="text-align: center;">تسوق حسب الأقسام</h4>
+          
+          <div class="container py-4 mb-3">
+    <div class="scrolling-wrapper d-flex justify-content-center">
+      <a href="digital.html" class="category-box">
+        <div class="category-icon text-primary"><img style="height: 75px;" src="img/card/digital.png" alt="..." /></div>
+        <div>خدمات رقمية</div>
+      </a>
+      <a href="phoness.html" class="category-box">
+        <div class="category-icon text-dark"><img style="height: 75px;" src="img/card/phones.png" alt="..." /></div>
+        <div>الهواتف الذكية</div>
+      </a>
+      <a href="books.html" class="category-box">
+        <div class="category-icon text-secondary"><img style="height: 75px;" src="img/card/ebook.png" alt="..." /></div>
+        <div>الكتب الرقمية</div>
+      </a>
+      <!-- أضف المزيد من الأقسام هنا -->
+    </div>
+  </div>
+          
+     <div class="service-list">
+   
+          <div class="card" style="width: 18rem;">
+  <img style="height: 177px;" src="img/Order three/img.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">متجر الخدمات الرقمية</h5>
+    <p class="card-text">معانا تقدر تخلص خدماتك الرقمية بكل سهولة</p>
+    <a href="digital.html" class="btn btn-primary d-flex justify-content-center mt-5">الدخول الى المتجر</a>
+  </div>
+</div>
+
+       
+       <div class="card" style="width: 18rem;">
+  <img style="height: 177px;" src="img/Order seven/img.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">متجر الهواتف الذكية</h5>
+    <p class="card-text">أشتري أحدث الهواتف الذكية في سنة 2025.</p>
+    <a href="phoness.html" class="btn btn-primary d-flex justify-content-center mt-5">الدخول الى المتجر</a>
+
+  </div>
+</div>
+       
+       <div class="card" style="width: 18rem;">
+  <img style="height: 177px;" src="img/Order six/img.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">متجر حجز تذاكر الطيران</h5>
+    <p class="card-text">نقدم أفضل الرحلات التي تلزم المسافر لقضاء رحلة جميلة</p>
+    <a href="books.html" class="btn btn-primary d-flex justify-content-center mt-5">الدخول الى المتجر</a>
+
+  </div>
+</div>
+       
+
+       
+</section>
+    
+        
+    </div>
+    
+    
+    </div>
+
+<div class="testimonial-box">
+  <div id="testimonial-content">
+    <!-- سيتم تحديث هذا المحتوى تلقائياً -->
+  </div>
+</div>
+
+      <footer style="background: linear-gradient(to right, #0d6efd 45%, #FFFFFF);" class="footer text-center">
+    <div class="container">
+      <hr class="mb-4">
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+        <p class="mb-2 mb-sm-0">© 2025 Nile Reach</p>
+        <a href="#"><img style="border-radius: 50%;" src="img/NR.jpg" alt="..." width="24" height="24"></a>
+        <ul class="list-unstyled d-flex mb-0">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="#">من نحن</a></li>
+          <li><a href="#">الدعم و المساعدة</a></li>
+          <li><a href="#Order-list">تسوق حسب الأقساب</a></li>
+          <li><a href="#">القواعد</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+<button onclick="topFunction()" id="topBtn" title="الرجوع للأعلى">⬆</button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
+</script>
+<script>
+  let mybutton = document.getElementById("topBtn");
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+<script>
+    document.body.classList.add("page-transition");
+
+    function goToPage(page) {
+        document.body.style.opacity = "0";
+        setTimeout(() => {
+            window.location.href = page;
+        }, 500);
+    }
+
+    window.onload = () => {
+        document.body.style.opacity = "1";
+    };
+</script>
+
+<script type='text/javascript' src='//pl25871410.effectiveratecpm.com/d5/cc/fd/d5ccfd45ab394d52df99d85c422b4dcf.js'></script>
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '7d5c2a105fc6bd724991d9d48ea4446a',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 628,
+		'params' : {}
+	};
+</script>
+<script>
+const testimonials = [
+  { name: "محمد", rating: 5, text: "موقع رائع وسهل الاستخدام!" },
+  { name: "أحمد", rating: 4, text: "الخدمات ممتازة وسريعة." },
+  { name: "سارة", rating: 5, text: "أنصح به للجميع!" },
+  { name: "ليلى", rating: 4, text: "التصميم أنيق جداً." },
+  { name: "يوسف", rating: 5, text: "فكرة مبتكرة وخدمة رائعة." },
+  { name: "خالد", rating: 5, text: "دعم فني ممتاز وسريع." },
+  { name: "نورا", rating: 4, text: "تعامل راقٍ ومحترف." },
+  { name: "عمرو", rating: 5, text: "أفضل تجربة لي حتى الآن!" },
+  { name: "هدى", rating: 5, text: "موقع يستحق التجربة فعلاً." },
+  { name: "بشير", rating: 4, text: "سهل وبسيط ومفيد جداً." }
+];
+
+let index = 0;
+
+function updateTestimonial() {
+  const t = testimonials[index];
+  const stars = "★".repeat(t.rating) + "☆".repeat(5 - t.rating);
+  const html = `
+    <div class="testimonial">
+      <div class="stars">${stars}</div>
+      <div class="text">"${t.text}"</div>
+      <div class="name">– ${t.name}</div>
+    </div>
+  `;
+  document.getElementById("testimonial-content").innerHTML = html;
+  index = (index + 1) % testimonials.length;
+}
+
+// أول تعليق فوراً
+updateTestimonial();
+// تغيير كل 6 ثواني
+setInterval(updateTestimonial, 6000);
+</script>
+<script>
+  function switchLanguage() {
+    const currentPage = window.location.pathname;
+
+    if (currentPage.includes("index-en")) {
+      window.location.href = "index.html";
+    } else {
+      window.location.href = "index-en.html";
+    }
+  }
+</script>
+
+
+</body>
+</html>
